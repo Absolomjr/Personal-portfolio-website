@@ -28,32 +28,6 @@ python -m http.server 5500
 
 ## 🌐 Deploy (free)
 
-- **Netlify / Vercel:** drag-and-drop this folder, or connect a Git repo.
-- **GitHub Pages:** push these files to a repo and enable Pages on the `main` branch.
+- **Vercel:** drag-and-drop this folder, or connect a Git repo.
+-
 
-## ✏️ What to personalise
-
-Most content lives in `index.html` — search for these and update with your real details:
-
-| Section      | What to edit |
-|--------------|--------------|
-| **Experience** | Replace the timeline entries with your exact roles, companies and dates from LinkedIn. |
-| **Projects** | Swap links/descriptions; point each card to its specific GitHub repo URL. |
-| **Contact** | Email is set to `support@logoscloudservices.com` — change in `index.html` and `script.js` if needed. |
-| **Stats** | Hero numbers (`data-count`) — repos, followers, technologies. |
-| **Photo** | The hero shows initials "AO". To use a real photo, replace the `.avatar` div with an `<img>`. |
-
-### Files
-
-```
-index.html    # structure & content
-styles.css    # all styling and the colour theme (CSS variables at the top)
-script.js     # nav, scroll-spy, animations, contact form
-```
-
-To change the colour theme, edit the CSS variables under `:root` in `styles.css`
-(`--teal`, `--cyan`, `--grad`, etc.).
-
----
-
-Built with care in Kampala 🇺🇬
